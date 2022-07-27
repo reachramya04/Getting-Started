@@ -5,11 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "vscode-edge-devtools.debug",
-            "request": "launch",
-            "name": "Open index.html",
-            "file": "d:\\ramya\\Documents\\Visual Studio Code\\Getting Started\\index.html"
-            "url": "http://localhost:8080"
+            
         }
     ]
 }
