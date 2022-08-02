@@ -9,14 +9,14 @@
 <body>
     <form action="">
         <p>Username: <input type="text" placeholder="Enter Username"></p>
-        <p>Stay logged in: <input type="checkbox" checked></p>
-        <p>Under 18: <input type="radio" name="age" value="u18"></p>
-        <p>Over 18: <input type="radio" name="age" value="o18"></p>
-        <p>Favourite food: 
-            <select name="" id="favfood">
-                <option value="">Pizza</option>
-                <option value="" selected>Ice cream</option>
-                <option value="">Sandwiches</option>
+        <p><label for="check">Stay logged in:</label><input type="checkbox" name="check" id="check" checked></p>
+        <p><label for="u18">Under 18:</label><input type="radio" name="age" id="u18" value="u18"></p>
+        <p><label for="o18">Over 18:</label><input type="radio" name="age" id="o18" value="o18"></p>
+        <p><label for="favfood">Favourite food: </label> 
+            <select name="Food" id="favfood">
+                <option value="pizza">Pizza</option>
+                <option value="ice" selected>Ice cream</option>
+                <option value="sandwich">Sandwiches</option>
             </select>
         </p>
         <p><input type="submit" value="Click me"></p>
